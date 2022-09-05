@@ -1,0 +1,30 @@
+est/shared/fixtures.ts:22:73 - error TS2307: Cannot find module '../../scripts/utils' or its corresponding type declarations.
+
+22 import { importOperatorsWithSigner, registerFlat, registerZeroEx } from "../../scripts/utils";
+                                                                           ~~~~~~~~~~~~~~~~~~~~~
+test/shared/fixtures.ts:26:14 - error TS2322: Type '(wallets: Wallet[], provider: MockProvider) => Promise<{ operatorResolver: Contract; }>' is not assignable to type 'Fixture<OperatorResolverFixture>'.
+  Type 'Promise<{ operatorResolver: Contract; }>' is not assignable to type 'Promise<OperatorResolverFixture>'.
+    Type '{ operatorResolver: Contract; }' is not assignable to type 'OperatorResolverFixture'.
+      Types of property 'operatorResolver' are incompatible.
+        Type 'Contract' is missing the following properties from type 'OperatorResolver': areOperatorsImported, getOperator, importOperators, operators, and 5 more.
+
+26 export const operatorResolverFixture: Fixture<OperatorResolverFixture> = async (wallets, provider) => {
+                ~~~~~~~~~~~~~~~~~~~~~~~
+test/shared/fixtures.ts:49:14 - error TS2322: Type '(wallets: Wallet[], provider: MockProvider) => Promise<{ zeroExOperator: Contract; dummyRouter: Contract; dummyRouterInterface: Interface; mockUNI: Contract; mockDAI: Contract; testableOperatorCaller: Contract; }>' is not assignable to type 'Fixture<ZeroExOperatorFixture>'.
+  Type 'Promise<{ zeroExOperator: Contract; dummyRouter: Contract; dummyRouterInterface: Interface; mockUNI: Contract; mockDAI: Contract; testableOperatorCaller: Contract; }>' is not assignable to type 'Promise<ZeroExOperatorFixture>'.
+    Type '{ zeroExOperator: Contract; dummyRouter: Contract; dummyRouterInterface: Interface; mockUNI: Contract; mockDAI: Contract; testableOperatorCaller: Contract; }' is not assignable to type 'ZeroExOperatorFixture'.
+      Types of property 'zeroExOperator' are incompatible.
+        Type 'Contract' is missing the following properties from type 'ZeroExOperator': operatorStorage, performSwap
+
+49 export const zeroExOperatorFixture: Fixture<ZeroExOperatorFixture> = async (wallets, provider) => {
+                ~~~~~~~~~~~~~~~~~~~~~
+test/shared/fixtures.ts:105:14 - error TS2322: Type '(wallets: Wallet[], provider: MockProvider) => Promise<{ WETH: Contract; mockUNI: Contract; mockKNC: Contract; mockDAI: Contract; ... 19 more ...; baseAmount: BigNumber; }>' is not assignable to type 'Fixture<FactoryAndOperatorsFixture>'.
+  Type 'Promise<{ WETH: Contract; mockUNI: Contract; mockKNC: Contract; mockDAI: Contract; mockUSDC: Contract; shareholder1: Wallet; shareholder2: Wallet; ... 16 more ...; baseAmount: BigNumber; }>' is not assignable to type 'Promise<FactoryAndOperatorsFixture>'.
+    Type '{ WETH: Contract; mockUNI: Contract; mockKNC: Contract; mockDAI: Contract; mockUSDC: Contract; shareholder1: Wallet; shareholder2: Wallet; ... 16 more ...; baseAmount: BigNumber; }' is not assignable to type 'FactoryAndOperatorsFixture'.
+      Types of property 'WETH' are incompatible.
+        Type 'Contract' is missing the following properties from type 'WETH9': allowance, approve, balanceOf, decimals, and 7 more.
+
+105 export const factoryAndOperatorsFixture: Fixture<FactoryAndOperatorsFixture> = async (wallets, provider) => {
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error Command failed with exit code 1.

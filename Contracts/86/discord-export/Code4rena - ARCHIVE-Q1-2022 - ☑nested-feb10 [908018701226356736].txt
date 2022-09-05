@@ -1,0 +1,272 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q1-2022 / ☑nested-feb10
+==============================================================
+
+[10-Nov-21 07:50 AM] itsmetechjay | C4#5294
+👋 Hello and welcome to the contest channel for the **$50K USDC Nested Finance** contest!
+
+📆 Contest opens November 11, 2021 at 0:00 UTC (in about ~8 hours!) and runs through November 17, 2021 at 23:59 UTC (7 days).
+
+Please give a warm welcome to the Nested Finance team -- and specifically @Rudy | Nested Founder, @Adrien | Nested and @axxe -- who will be available during the contest to answer questions either here in channel or via DM. 
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, you might want to enable notifications. 🐺 ⏰
+
+{Reactions}
+🎉 (6) 🪆 (3) 
+
+[10-Nov-21 08:15 PM] itsmeSTYJ#4682
+Completely random but I really appreciate the time and effort that went into writing up the README and the documentation. It really helps a lot!
+
+{Reactions}
+👍 (8) hi5 (4) nice 
+
+[10-Nov-21 11:48 PM] tabish.eth#6956
+Team is the beta access list still open https://beta.nested.finance/, registered for it would be cool to try out the protocol first before reviewing
+
+
+[10-Nov-21 11:57 PM] axxe#8561
+Hi everyone ! We are very happy and excited about this contest !
+
+We are available if you have any questions. You can contact us on Discord and Telegram (`@axxedev` & `@adrienspt`) 😀 
+
+It's also possible to schedule a call on Calendly :
+- https://calendly.com/maxime-brugel/lets-talk
+- https://calendly.com/adrien-supizet/30min
+
+
+[10-Nov-21 11:59 PM] axxe#8561
+Thank you !! I'm very happy that it can help you a lot
+
+{Reactions}
+🍻 
+
+[11-Nov-21 12:01 AM] axxe#8561
+Absolutely!! 
+So, as mentioned in the README file : 
+
+```
+If you want to access the beta version of Nested Finance, contact Adrien or Axxe. It can help to better understand the protocol context.
+
+Note : The Beta is running on the v1 (puzzle) of the protocol. The version of this contest is the v2 (lego).
+```
+
+You can send us your address to be whitelisted 😀
+
+
+[11-Nov-21 12:59 AM] axxe#8561
+Also ! If you have any "frustrations" reading the code, like bad nomenclature, structure, missing/inconsistent doc,... (that are not issues)
+We really want to know ! Feel free to be salty  🙂
+
+{Reactions}
+🧂 (7) 
+
+[11-Nov-21 02:24 AM] Rudy | Nested Founder#0470
+Hi all! @here
+
+It's nice to be there! Please break our code 😂 
+
+Don't hesitate also to ask us anything about the code, our business model, or product or our vision. 
+
+We are here to answer.
+
+{Reactions}
+🙌 (11) 
+
+[16-Nov-21 02:38 AM] axxe#8561
+Hi everyone ! The Red4Sec final report is here !
+You can find some interesting informations.
+
+*Note* : The code you're auditing includes the Red4Sec fixes 🙂
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2022 - ☑nested-feb10 [908018701226356736].txt_Files/Red4Sec_Nested_Finance_Security_Audit_Repo-FF84B.pdf
+
+
+[17-Nov-21 04:01 PM] Message Scheduler#0000
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Nested Finance** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the Nested Finance team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through judging 🧑‍⚖️ and reporting 📜. Feel free to ping an organizer if you have questions along the way!
+
+
+[18-Nov-21 01:00 AM] Rudy | Nested Founder#0470
+https://twitter.com/nestedfinance/status/1461257531607724038?s=21 @here
+
+{Embed}
+NestedFinance 🧩 (@NestedFinance)
+https://twitter.com/nestedfinance/status/1461257531607724038?s=21
+The @code4rena public contest just ended: 227 issues reported 😁
+
+Our team has now a lot of work. We have to look at those issues, sort them and rate them as relevant or not 🤝
+
+The contest report will be out soon 🍻
+
+Thank to all wardens 🛡 ⚔️ 
+
+https://t.co/tWhg8dizo1
+Code4rena - ARCHIVE-Q1-2022 - ☑nested-feb10 [908018701226356736].txt_Files/TW36bGuF-642F6
+Twitter
+
+
+[08-Feb-22 10:08 AM] itsmetechjay | C4#5294
+👋 Hello and welcome to the contest channel for the $30K USDC **Nested Finance** contest!
+
+📆 Contest opens February 10, 2022 at 0:00 UTC and runs through February 12, 2022 at 23:59 UTC (3 days).
+
+Please give a warm welcome back to the Nested Finance team -- and specifically @Adrien | Nested and @axxe -- who will be available during the contest to answer questions either here in channel or via DM. 
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, you might want to enable notifications. 🐺 ⏰
+
+{Reactions}
+🥳 (8) 
+
+[09-Feb-22 11:31 PM] Ruhum#9483
+@Adrien | Nested @axxe the `package.json` file is missing
+
+
+[09-Feb-22 11:36 PM] axxe#8561
+Fixed 🙂
+
+
+[09-Feb-22 11:36 PM] Ruhum#9483
+Thanks
+
+
+[10-Feb-22 06:20 AM] axxe#8561
+Hello everyone!
+
+Be careful with this second audit, we will "dispute" all the issues that were already surfaced in the previous audit => https://github.com/code-423n4/2021-11-nested-findings
+
+I just added the mention to emphasize this point, even though the first audit was already mentioned in the README.md 😀
+
+{Embed}
+https://github.com/code-423n4/2021-11-nested-findings
+GitHub - code-423n4/2021-11-nested-findings
+Contribute to code-423n4/2021-11-nested-findings development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q1-2022 - ☑nested-feb10 [908018701226356736].txt_Files/bd9eb9ce-406f-4880-8849-e2375ca1ffd1-51667
+
+{Reactions}
+👍 
+
+[10-Feb-22 06:22 AM] Kenzo Agada#5926
+Are the tests supposed to be working? Seems like there is outdated stuff there, for examples fixtures.ts imports DummyRouter from ../../typechain but that file is not in the repo anymore
+
+
+[10-Feb-22 06:23 AM] geopok20216#4651
+It takes time to check if an issue matches a previous one. Shouldn't it only be ones in the readme?
+
+
+[10-Feb-22 06:26 AM] Kenzo Agada#5926
+I think there's no difference for us wardens between them saying "stuff from previous audit will be disputed" and between them manually adding all the stuff from previous audit to the readme file
+
+It will be probably good to mention in the readme that issues from first audit will be disputed though
+
+
+[10-Feb-22 06:28 AM] geopok20216#4651
+It's a matter of skimming a single page vs opening every issue to confirm
+
+
+[10-Feb-22 06:28 AM] ⛅CloudEllie#4509
+Hi all - might help to review the report instead: https://code4rena.com/reports/2021-11-nested/
+
+{Embed}
+https://code4rena.com/reports/2021-11-nested/
+Nested Finance contest
+Hack DeFi. Compete. Get paid.
+
+
+[10-Feb-22 06:28 AM] Kenzo Agada#5926
+You can just skim the final report no? That's what they linked to above here
+
+
+[10-Feb-22 06:29 AM] geopok20216#4651
+Duplicates often are slightly different and aren't listed
+
+
+[10-Feb-22 06:30 AM] ⛅CloudEllie#4509
+Hmm, I may have a solution for this.
+
+
+[10-Feb-22 06:45 AM] axxe#8561
+Try running git pull and yarn typechain. Let me know if it's better now 🙂
+
+
+[10-Feb-22 06:47 AM] Kenzo Agada#5926
+Fixed that one, but few others seem to be there -
+
+
+[10-Feb-22 06:47 AM] Kenzo Agada#5926
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2022 - ☑nested-feb10 [908018701226356736].txt_Files/nested_errors-785E2.txt
+
+
+[10-Feb-22 06:55 AM] axxe#8561
+OKKK By selecting the files in the scope and not cloning the repo I skipped some files... 
+I just added the missing utils.ts file
+
+
+[10-Feb-22 06:55 AM] axxe#8561
+should be ok, thank you for your feedback
+
+
+[10-Feb-22 06:59 AM] Kenzo Agada#5926
+Thank you but I'm afraid it's still not working 😅 still getting the errors from fixtures.ts:26 till :105 above and now a few others.. Unless I am missing something
+```
+test/shared/fixtures.ts:240:9 - error TS2345: Argument of type 'Contract' is not assignable to parameter of type 'OperatorResolver'.
+
+240         operatorResolver,
+            ~~~~~~~~~~~~~~~~
+test/shared/fixtures.ts:241:25 - error TS2345: Argument of type 'Contract' is not assignable to parameter of type 'ZeroExOperator'.
+
+241         [registerZeroEx(zeroExOperator), registerFlat(flatOperator)],
+                            ~~~~~~~~~~~~~~
+test/shared/fixtures.ts:241:55 - error TS2345: Argument of type 'Contract' is not assignable to parameter of type 'FlatOperator'.
+  Property 'transfer' is missing in type 'Contract' but required in type 'FlatOperator'.
+
+241         [registerZeroEx(zeroExOperator), registerFlat(flatOperator)],
+                                                          ~~~~~~~~~~~~
+
+  typechain/FlatOperator.d.ts:88:3
+    88   transfer(
+         ~~~~~~~~
+    'transfer' is declared here.
+```
+
+
+[10-Feb-22 07:03 AM] axxe#8561
+After running `yarn` and `yarn typechain`  it works. Did you run these two commands?
+
+{Attachments}
+Code4rena - ARCHIVE-Q1-2022 - ☑nested-feb10 [908018701226356736].txt_Files/unknown-58064.png
+
+
+[10-Feb-22 07:04 AM] Kenzo Agada#5926
+Hmm yes I did... I might try a clean install if it looks ok now. Thanks.
+
+{Reactions}
+👍 
+
+[12-Feb-22 04:02 PM] C4#0000
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Nested Finance **contest is now closed! Huge thanks to everyone who participated🔍, whether you submitted a finding or not.
+
+What's next: the Nested team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping an organizer if you have questions along the way!
+
+
+[06-Apr-22 08:18 PM] samruna#5774
+Did the award distribution happen?
+
+
+[07-Apr-22 05:54 AM] itsmetechjay | C4#5294
+Not yet @samruna, they will probably be distributed in the next 1-2 weeks.
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 35 message(s)
+==============================================================

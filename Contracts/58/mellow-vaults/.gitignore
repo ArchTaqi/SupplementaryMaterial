@@ -1,0 +1,24 @@
+build
+node_modules
+tmp
+node_modules
+
+#Hardhat files
+cache
+artifacts
+
+.env
+yarn-error.log
+yarn.lock
+
+registry
+coverage
+coverage.json
+deployments/kovan
+deployments/localhost
+deployments/contracts.json
+test/types
+.vscode
+docs
+.DS_store
+.mailmap
